@@ -1,0 +1,11 @@
+Parametros do problema 
+
+Dimensao:21
+k-limite:2
+k-min:6
+k-max:20
+Criticalidade:22 141.348431
+Tipo de busca:DC
+no. solucoes visitadas:32
+tempo decorrido:60
+memória utilizada:5505024

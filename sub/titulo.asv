@@ -1,0 +1,22 @@
+function titulo(fout, med_file, sis_file, tol_max, int_max, med_opt)
+% Mostra o título
+if nargin < 2
+    fout = 1;
+    fprintf(fout, '================================================================================= \n');
+    fprintf(fout, '=== UFF - Doutorado em Computação - Aplicaçoes em Sistemas de Potencia        === \n');
+    fprintf(fout, '=== ESTIMADOR DE ESTADO MÍNIMOS QUADRADOS PONDERADOS INCLUINDO MEDIDAS DE PMU === \n');
+    fprintf(fout, '=== Desenvolvido por: Rui Menezes de Moraes - 2009                            === \n');
+    fprintf(fout, '================================================================================= \n');
+else
+    fprintf(fout, '================================================================================= \n');
+    fprintf(fout, '=== UFF - Doutorado em Computação - Aplicaçoes em Sistemas de Potencia        === \n');
+    fprintf(fout, '=== ESTIMADOR DE ESTADO MÍNIMOS QUADRADOS PONDERADOS INCLUINDO MEDIDAS DE PMU === \n');
+    fprintf(fout, '=== Desenvolvido por: Rui Menezes de Moraes - 2009                            === \n');
+    fprintf(fout, '================================================================================= \n');
+    fprintf(fout, 'Arquivo de medidores:          %s\n', med_file);
+    fprintf(fout, 'Arquivo do sistema:            %s\n', sis_file);
+    fprintf(fout, 'Tolerância entre iteraçoes:    %9.2e\n', tol_max);
+    fprintf(fout, 'Limite de iteraçoes:           %d\n\n', int_max);
+    fprintf(fout, 'Desvios no Arquivo: (1 - Sim, 0 - Não): %d\n\n', med_opt);
+end
+return

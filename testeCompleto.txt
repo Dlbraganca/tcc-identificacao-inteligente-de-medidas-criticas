@@ -1,0 +1,10 @@
+================================================================================= 
+=== UFF - Doutorado em Computação - Aplicaçoes em Sistemas de Potencia        === 
+=== ESTIMADOR DE ESTADO MÍNIMOS QUADRADOS PONDERADOS INCLUINDO MEDIDAS DE PMU === 
+=== Desenvolvido por: Rui Menezes de Moraes - 2009                            === 
+================================================================================= 
+Arquivo de medidores:          S1_CS5_118JM_M.med
+Arquivo do sistema:            ieee118_SP.cdf
+Tolerância entre iteraçoes:     1.00e-06
+Limite de iteraçoes:           9999
+
